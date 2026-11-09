@@ -1,0 +1,15 @@
+# Designerkid student course site
+
+This is a static React/Vite site. The course index lives in `content/course.json`; the generated slide counts live in `content/slides.json`. The student app reads both at build time. Rendered slide images live under `public/images/lessons/day-NN/` and are copied into the deployable `dist/` folder.
+
+The instructor keeps PowerPoint source files outside the public website. `source-pptx/` is ignored by Git. The import command converts a deck to PDF in a temporary directory, then exports numbered JPEG images. The PDF and PPTX are not copied into the website. A card without imported slides displays an honest availability message.
+
+Each lesson also inserts one web-native visual example slide after the fourth original slide. The examples are authored in `content/examples.js` and rendered by `src/ExampleSlide.jsx` with CSS illustrations. Reimporting a PPTX replaces only its rendered images; the visual example remains. These examples are in the student web viewer and are not added to the instructor's PPTX files.
+
+The landing page, guides, and blog are authored in `content/resources.js` and `src/ContentPages.jsx`. These are public editorial resources. The editable Word CV templates and their read-only WebP page previews are in `public/images/downloads/`. Previews are rendered from the Word files, so regenerate each preview when its template changes. The CV guide uses a dedicated visual page with an annotated fictional resume, project-order and bullet diagrams, short do/avoid cards, a visual template gallery, and collapsed detailed notes. Its styles live in `src/cv-visual.css`. Guide checklist completion is stored in `localStorage`, per guide and browser. The support link is intentionally a non-payment placeholder until a real payment page is provided.
+
+The other five guides use `src/VisualGuides.jsx` and `src/visual-guides.css`. Their diagrams and fictional examples are code-native, so they stay responsive and readable. The existing longer guidance remains under a collapsed details panel on each guide, followed by source links.
+
+Progress is optional browser-local state (`localStorage`). Hash routes (`#/lesson/4/1`, `#/guides`, and `#/blog`) work on GitHub Pages and other static hosts without rewrite rules. The Vite relative base supports hosting at a repository subpath.
+
+Reviews use the existing Supabase project through its public Data API. The browser contains only a publishable key. Row level security allows visitors to read approved reviews and submit new pending reviews. Visitors cannot approve or edit reviews. A site owner reviews submissions in the Supabase table editor by changing `status` from `pending` to `approved` or `rejected`. There is no website admin server, student account system, or service-role key in the frontend. Moderation is necessary because a public form can receive spam; the form includes basic length validation and a honeypot, and the database enforces constraints and approval state. For higher traffic, add CAPTCHA or rate limiting through a server endpoint.

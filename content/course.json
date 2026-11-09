@@ -1,0 +1,344 @@
+{
+  "title": "UI/UX Design Foundations",
+  "subtitle": "A practical 30-day learning path for curious beginners",
+  "modules": [
+    {
+      "name": "Foundations",
+      "start": 1,
+      "end": 5,
+      "range": "01–05"
+    },
+    {
+      "name": "UX Planning",
+      "start": 6,
+      "end": 11,
+      "range": "06–11"
+    },
+    {
+      "name": "Visual Design",
+      "start": 12,
+      "end": 16,
+      "range": "12–16"
+    },
+    {
+      "name": "Design Systems",
+      "start": 17,
+      "end": 22,
+      "range": "17–22"
+    },
+    {
+      "name": "Testing & Delivery",
+      "start": 23,
+      "end": 26,
+      "range": "23–26"
+    },
+    {
+      "name": "Portfolio",
+      "start": 27,
+      "end": 30,
+      "range": "27–30"
+    }
+  ],
+  "lessons": [
+    {
+      "day": 1,
+      "title": "Introduction to UI & UX",
+      "description": "Understand the difference between what an interface looks like and how it works.",
+      "task": "Compare 2 apps: note 3 UI details and 3 UX observations",
+      "resource": {
+        "label": "BookMyShow",
+        "url": "https://in.bookmyshow.com/"
+      }
+    },
+    {
+      "day": 2,
+      "title": "Design Thinking",
+      "description": "Use a simple process to understand, define, explore, build, and test ideas.",
+      "task": "Submit one problem statement and a five-step design thinking board",
+      "resource": {
+        "label": "IDEO Design Thinking",
+        "url": "https://designthinking.ideo.com/"
+      }
+    },
+    {
+      "day": 3,
+      "title": "UX Research Basics",
+      "description": "Learn when and how to gather evidence from people who use a product.",
+      "task": "Write 5 neutral questions and a participant recruitment plan",
+      "resource": {
+        "label": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/which-ux-research-methods/"
+      }
+    },
+    {
+      "day": 4,
+      "title": "Interviews & Competitor Analysis",
+      "description": "Ask useful interview questions and compare existing products thoughtfully.",
+      "task": "Interview 2 people and compare 2 existing products",
+      "resource": {
+        "label": "Airbnb",
+        "url": "https://www.airbnb.com/"
+      }
+    },
+    {
+      "day": 5,
+      "title": "Personas & Empathy Maps",
+      "description": "Turn research notes into a grounded picture of a user and their needs.",
+      "task": "Create one persona using interview notes; label any assumptions",
+      "resource": {
+        "label": "Miro Templates",
+        "url": "https://miro.com/templates/empathy-map/"
+      }
+    },
+    {
+      "day": 6,
+      "title": "User Journey Maps",
+      "description": "Map what a person does, thinks, and feels across a complete experience.",
+      "task": "Map a current user journey for your app concept",
+      "resource": {
+        "label": "Uber",
+        "url": "https://www.uber.com/"
+      }
+    },
+    {
+      "day": 7,
+      "title": "Problem Statements & HMW",
+      "description": "Turn research findings into a focused problem and possible design ideas.",
+      "task": "Submit 1 problem statement, 3 HMWs and 4 ideas",
+      "resource": {
+        "label": "IDEO Design Kit",
+        "url": "https://www.designkit.org/"
+      }
+    },
+    {
+      "day": 8,
+      "title": "Information Architecture",
+      "description": "Organize content so people can find what they need.",
+      "task": "Build a content inventory and draft navigation groups",
+      "resource": {
+        "label": "Nielsen Norman Group IA",
+        "url": "https://www.nngroup.com/articles/information-architecture-sitemaps/"
+      }
+    },
+    {
+      "day": 9,
+      "title": "Sitemaps & Navigation",
+      "description": "Structure screens and navigation into a clear product map.",
+      "task": "Deliver a sitemap with at least 12 screens",
+      "resource": {
+        "label": "Apple Human Interface Guidelines",
+        "url": "https://developer.apple.com/design/human-interface-guidelines/"
+      }
+    },
+    {
+      "day": 10,
+      "title": "User Flows & Task Flows",
+      "description": "Show the steps and decisions within a key user task.",
+      "task": "Create a complete main task flow with one error branch",
+      "resource": {
+        "label": "Amazon India",
+        "url": "https://www.amazon.in/"
+      }
+    },
+    {
+      "day": 11,
+      "title": "Low-Fidelity Wireframes",
+      "description": "Explore screen structure quickly before applying visual detail.",
+      "task": "Sketch 5 app screens based on the flow",
+      "resource": {
+        "label": "Swiggy",
+        "url": "https://www.swiggy.com/"
+      }
+    },
+    {
+      "day": 12,
+      "title": "Figma Essentials",
+      "description": "Learn the core Figma tools used to create interface layouts.",
+      "task": "Recreate one sign-in UI from reference using basic tools",
+      "resource": {
+        "label": "Figma Design",
+        "url": "https://www.figma.com/design/"
+      }
+    },
+    {
+      "day": 13,
+      "title": "Typography for Interfaces",
+      "description": "Create a readable type scale for digital products.",
+      "task": "Create a 4–6-level type scale and annotate uses",
+      "resource": {
+        "label": "Material Design Type",
+        "url": "https://m3.material.io/styles/typography/overview"
+      }
+    },
+    {
+      "day": 14,
+      "title": "Color Theory & Accessibility",
+      "description": "Choose purposeful colors and test text contrast.",
+      "task": "Create a small palette and test at least 3 pairs",
+      "resource": {
+        "label": "WebAIM Contrast Checker",
+        "url": "https://webaim.org/resources/contrastchecker/"
+      }
+    },
+    {
+      "day": 15,
+      "title": "Layout, Spacing & Grids",
+      "description": "Use grids, alignment, and spacing for clear layouts.",
+      "task": "Rebuild a card with annotated spacing values",
+      "resource": {
+        "label": "Laws of UX",
+        "url": "https://lawsofux.com/"
+      }
+    },
+    {
+      "day": 16,
+      "title": "Auto Layout & Constraints",
+      "description": "Make layouts adapt when content or screen sizes change.",
+      "task": "Make two responsive card components using auto layout",
+      "resource": {
+        "label": "Figma Auto Layout Guide",
+        "url": "https://help.figma.com/hc/en-us/articles/360040451373-Guide-to-auto-layout-in-Figma"
+      }
+    },
+    {
+      "day": 17,
+      "title": "Components & Variants",
+      "description": "Build reusable interface elements and their different states.",
+      "task": "Build buttons with two sizes and three states",
+      "resource": {
+        "label": "Figma Components",
+        "url": "https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-components-in-Figma"
+      }
+    },
+    {
+      "day": 18,
+      "title": "Design Systems & Variables",
+      "description": "Keep design choices consistent with shared styles and variables.",
+      "task": "Build a mini design system: color, type, buttons and inputs",
+      "resource": {
+        "label": "Material Design 3",
+        "url": "https://m3.material.io/"
+      }
+    },
+    {
+      "day": 19,
+      "title": "Mobile UI Patterns",
+      "description": "Apply familiar mobile patterns to useful screen states.",
+      "task": "Design three core app screen states",
+      "resource": {
+        "label": "Material Design Components",
+        "url": "https://m3.material.io/components"
+      }
+    },
+    {
+      "day": 20,
+      "title": "High-Fidelity UI",
+      "description": "Turn wireframes into polished, consistent app screens.",
+      "task": "Complete five hi-fi screens of your app",
+      "resource": {
+        "label": "Apple Design Resources",
+        "url": "https://developer.apple.com/design/resources/"
+      }
+    },
+    {
+      "day": 21,
+      "title": "Prototyping & Interactions",
+      "description": "Connect screens to show interactions and key journeys.",
+      "task": "Submit a clickable main flow and one error state",
+      "resource": {
+        "label": "Figma Prototype Guide",
+        "url": "https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma"
+      }
+    },
+    {
+      "day": 22,
+      "title": "Responsive Web Design",
+      "description": "Adapt web layouts for desktop and mobile screens.",
+      "task": "Wireframe a responsive landing page in two widths",
+      "resource": {
+        "label": "Stripe",
+        "url": "https://stripe.com/"
+      }
+    },
+    {
+      "day": 23,
+      "title": "Landing Page Design",
+      "description": "Create a landing page with clear hierarchy and action.",
+      "task": "Submit desktop and mobile landing page UI",
+      "resource": {
+        "label": "Linear",
+        "url": "https://linear.app/"
+      }
+    },
+    {
+      "day": 24,
+      "title": "Usability Testing",
+      "description": "Observe people using a prototype and record what happens.",
+      "task": "Run 2 short tests and record 3 findings",
+      "resource": {
+        "label": "Nielsen Norman Group Usability Testing",
+        "url": "https://www.nngroup.com/articles/usability-testing-101/"
+      }
+    },
+    {
+      "day": 25,
+      "title": "Heuristics & Accessibility",
+      "description": "Find usability issues and improve accessibility.",
+      "task": "Audit 2 screens and propose 5 improvements",
+      "resource": {
+        "label": "Nielsen Norman Group Heuristics",
+        "url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+      }
+    },
+    {
+      "day": 26,
+      "title": "Developer Handoff",
+      "description": "Prepare design files and notes that developers can use.",
+      "task": "Prepare annotated developer handoff for 2 screens",
+      "resource": {
+        "label": "Figma Dev Mode",
+        "url": "https://www.figma.com/dev-mode/"
+      }
+    },
+    {
+      "day": 27,
+      "title": "UX Case Study Structure",
+      "description": "Explain the problem, process, evidence, and outcome of a project.",
+      "task": "Write a truthful 1-page case study outline",
+      "resource": {
+        "label": "Behance",
+        "url": "https://www.behance.net/"
+      }
+    },
+    {
+      "day": 28,
+      "title": "Portfolio Storytelling",
+      "description": "Present design work as a clear and honest story.",
+      "task": "Draft project overview and presentation flow",
+      "resource": {
+        "label": "Awwwards Portfolios",
+        "url": "https://www.awwwards.com/websites/portfolio/"
+      }
+    },
+    {
+      "day": 29,
+      "title": "Careers & Interviews",
+      "description": "Prepare to discuss your work and design decisions in interviews.",
+      "task": "Prepare answers to 5 beginner interview questions",
+      "resource": {
+        "label": "Nielsen Norman Group Careers",
+        "url": "https://www.nngroup.com/articles/ux-career/"
+      }
+    },
+    {
+      "day": 30,
+      "title": "Final Project Review",
+      "description": "Review your app, landing page, and case study with feedback.",
+      "task": "Submit app, landing page and case study for feedback",
+      "resource": {
+        "label": "Figma",
+        "url": "https://www.figma.com/"
+      }
+    }
+  ]
+}
