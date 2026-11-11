@@ -15,7 +15,7 @@ Reviews are submitted to the existing Supabase project and start in `pending` st
 
 ## Current course files
 
-All 30 PowerPoint decks from `Designerkid_UIUX_30_Presentations_FRESH.zip` are imported as 240 rendered slide images. Each lesson also has one illustrated example slide inside the web viewer, for 270 viewable slides total. The example slide appears after original slide 4 and is editable in `content/examples.js`. The course titles, class assignments, and live example links follow the ZIP's `COURSE_INDEX.csv`. Original PPTX files stay out of the published site. The new examples are website content; they are not written back into the instructor's PPTX files.
+The original 30 PowerPoint decks from `Designerkid_UIUX_30_Presentations_FRESH.zip` were imported as 240 rendered slide images. Day 11 now displays the 10-slide Figma **Wireframing & Structure** session as its main deck; the earlier 8 slides remain in an expandable reference gallery. Each lesson also has one illustrated example slide inside the web viewer, for 272 viewable main-deck slides total. The example slide appears after source slide 4 and is editable in `content/examples.js`. The other course titles, class assignments, and live example links follow the ZIP's `COURSE_INDEX.csv`. Original PPTX and PDF files stay out of the published site.
 
 ## Run locally
 
@@ -43,6 +43,8 @@ The command updates the slide count in `content/slides.json` and the rendered im
 npm run import:slides -- --directory /private/path/to/decks
 npm run build
 ```
+
+Day 11's current main deck came from Figma, so reimporting the Day 11 PPTX will replace those 10 slide images. To update that Figma session, export it as a PDF, render each page to `public/images/lessons/day-11/slide-01.jpg` onward, and update Day 11's count in `content/slides.json`.
 
 Do not commit or upload the original PPTX directory to a public repository. Only the converted images and site files should be public. Slide images can still be saved or captured by visitors; a website cannot guarantee prevention of downloads, copying, or screenshots. For limited access, use a host with authentication.
 

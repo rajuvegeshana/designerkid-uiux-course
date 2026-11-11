@@ -4,7 +4,7 @@ This is a static React/Vite site. The course index lives in `content/course.json
 
 The instructor keeps PowerPoint source files outside the public website. `source-pptx/` is ignored by Git. The import command converts a deck to PDF in a temporary directory, then exports numbered JPEG images. The PDF and PPTX are not copied into the website. A card without imported slides displays an honest availability message.
 
-Optional external session decks are declared per lesson in `content/course.json` as `session` links. They appear above the slide viewer and open in a new tab. Access to an external Figma deck depends on that file's Figma sharing settings.
+Day 11's 10-slide Figma session is rendered to JPEG images in the main viewer. The PDF export remains outside the published site. Its earlier PPTX slide images are kept in `public/images/lessons/day-11-original/` and shown in a collapsible reference gallery. The external `session` link in `content/course.json` sits below the viewer; access to it depends on Figma sharing settings.
 
 Each lesson also inserts one web-native visual example slide after the fourth original slide. The examples are authored in `content/examples.js` and rendered by `src/ExampleSlide.jsx` with CSS illustrations. Reimporting a PPTX replaces only its rendered images; the visual example remains. These examples are in the student web viewer and are not added to the instructor's PPTX files.
 
