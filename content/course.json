@@ -145,6 +145,10 @@
       "title": "Low-Fidelity Wireframes",
       "description": "Explore screen structure quickly before applying visual detail.",
       "task": "Sketch 5 app screens based on the flow",
+      "session": {
+        "label": "Wireframes session in Figma",
+        "url": "https://www.figma.com/slides/KKYtBeFiCi5lHBRAj9YUPL"
+      },
       "resource": {
         "label": "Swiggy",
         "url": "https://www.swiggy.com/"
